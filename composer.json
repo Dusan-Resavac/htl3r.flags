@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Resavac\\Flags": "src/"
+            "Resavac\\Flags\\": "src/"
         }
     },
     "require": {}
