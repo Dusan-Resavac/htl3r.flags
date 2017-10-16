@@ -1,14 +1,14 @@
 <?php
-	require_once "CircleFlag.php";
-	require_once "RectangleFlag.php";
-	require_once "TriangleFlag.php";
+	namespace resavac\flags\tests;
+	
+	use Resavac\Flags;
 	
 	$flaggen = array(
-		new CircleFlag("Westliche Allianz","Gelb", 4),
-		new RectangleFlag("OEstliche Allianz", "Gruen", 2, 2),
-		new RectangleFlag("OEstliche Allianz", "Blau", 2, 2),
-		new TriangleFlag("Suedliche Streitmacht", "Schwarz", 4, 2),
-		new TriangleFlag("Suedliche Streitmacht", "Weisz", 4, 2)
+		new \Resavac\Flags\CircleFlag("Westliche Allianz","Gelb", 4),
+		new \Resavac\Flags\RectangleFlag("OEstliche Allianz", "Gruen", 2, 2),
+		new \Resavac\Flags\RectangleFlag("OEstliche Allianz", "Blau", 2, 2),
+		new \Resavac\Flags\TriangleFlag("Suedliche Streitmacht", "Schwarz", 4, 2),
+		new \Resavac\Flags\TriangleFlag("Suedliche Streitmacht", "Weisz", 4, 2)
 	);
 	
 	

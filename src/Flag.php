@@ -1,4 +1,5 @@
 <?php
+	namespace Resavac\Flags;
 	
 	/**
 	 * Class Flag

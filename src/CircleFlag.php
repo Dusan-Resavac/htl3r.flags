@@ -1,7 +1,7 @@
 <?php
-
-	require_once "Flag.php";
-	require_once "FlagInterface.php";
+	
+	namespace Resavac\Flags;
+	
 	
 	class CircleFlag extends Flag implements FlagInterface
 	{

@@ -1,8 +1,7 @@
 <?php
-
-	require_once "Flag.php";
-	require_once "FlagInterface.php";
 	
+	namespace Resavac\Flags;
+
 	/**
 	 * Class RectangleFlag
 	 */

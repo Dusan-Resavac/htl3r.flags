@@ -1,0 +1,17 @@
+{
+    "name": "resavac/flags",
+    "description": "Flag creation and calculation for a HTL3R project",
+    "type": "Library",
+    "authors": [
+        {
+            "name": "Dusan Resavac",
+            "email": "resavac.dusan@live.at"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Resavac\\Flags": "src/"
+        }
+    },
+    "require": {}
+}

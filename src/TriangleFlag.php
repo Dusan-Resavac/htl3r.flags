@@ -1,7 +1,6 @@
 <?php
-
-	require_once "Flag.php";
-	require_once "FlagInterface.php";
+	
+	namespace Resavac\Flags;
 	
 	class TriangleFlag extends Flag implements FlagInterface
 	{
