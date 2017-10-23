@@ -2,23 +2,23 @@
 	
 	namespace Resavac\Flags;
 
-	/**
-	 * Class RectangleFlag
-	 */
+    /**
+     * Class RectangleFlag
+     * @package Resavac\Flags
+     */
 	class RectangleFlag extends Flag implements FlagInterface
 	{
 		
 		private $width;
 		private $height;
-		
-		/**
-		 * RectangleFlag constructor.
-		 * @param string $name
-		 * @param string $farbe
-		 * @param string $form
-		 * @param int    $width
-		 * @param int    $height
-		 */
+
+        /**
+         * RectangleFlag constructor.
+         * @param string $name
+         * @param string $farbe
+         * @param int $width
+         * @param int $height
+         */
 		public function __construct(string $name,
 		                            string $farbe,
 									int $width,

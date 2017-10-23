@@ -1,10 +1,11 @@
 <?php
 	namespace Resavac\Flags;
-	
-	/**
-	 * Class Flag
-	 * Ist die Überklasse aller Flaggen
-	 */
+
+    /**
+     * Class Flag
+     * @package Resavac\Flags
+     * Ist die Überklasse aller Flaggen
+     */
 	abstract class Flag
 	{
 		private $name;
@@ -22,6 +23,22 @@
 			$this->name = $name;
 			$this->farbe = $farbe;
 		}
+
+        /**
+         * @return string
+         */
+        public function getName(): string
+        {
+            return $this->name;
+        }
+
+        /**
+         * @return string
+         */
+        public function getFarbe(): string
+        {
+            return $this->farbe;
+        }
 		
 		/**
 		 * @return string Gibt die Bezeichnung und Farbe aus.

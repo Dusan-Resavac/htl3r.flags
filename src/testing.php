@@ -1,18 +1,16 @@
 <?php
-	namespace resavac\flags\tests;
-	
-	use Resavac\Flags;
-	
+
+	namespace resavac\tests;
+
+    use Resavac\Flags;
+
 	$flaggen = array(
-		new \Resavac\Flags\CircleFlag("Westliche Allianz","Gelb", 4),
-		new \Resavac\Flags\RectangleFlag("OEstliche Allianz", "Gruen", 2, 2),
-		new \Resavac\Flags\RectangleFlag("OEstliche Allianz", "Blau", 2, 2),
-		new \Resavac\Flags\TriangleFlag("Suedliche Streitmacht", "Schwarz", 4, 2),
-		new \Resavac\Flags\TriangleFlag("Suedliche Streitmacht", "Weisz", 4, 2)
+		new Flags\CircleFlag("Westliche Allianz","Gelb", 4)
 	);
 	
 	
 	
 	foreach ($flaggen as $element){
-		echo $element . "\n\r";
+		echo $element . "\n\r<br>";
+		echo $element->getName() . "\n\r<br><br>";
 	}
