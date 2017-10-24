@@ -44,4 +44,12 @@
 		{
 			return parent::__toString() . " | Form: Dreieck | Flaecheninhalt: " . $this->getArea();
 		}
-	}
+
+        /**
+         * @return string
+         */
+        public function getForm(): string
+        {
+            return "Triangle";
+        }
+    }

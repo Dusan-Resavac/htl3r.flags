@@ -43,4 +43,13 @@
 		{
 			return parent::__toString() . " | Form: Rechteck | Flaecheninhalt: " . $this->getArea();
 		}
-	}
+
+
+        /**
+         * @return string
+         */
+        public function getForm(): string
+        {
+            return "Rectangle";
+        }
+    }

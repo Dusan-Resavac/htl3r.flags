@@ -38,4 +38,12 @@
 		{
 			return parent::__toString() . " | Form: Kreis | Flaecheninhalt: " . $this->getArea();
 		}
-	}
+
+        /**
+         * @return string
+         */
+        public function getForm(): string
+        {
+            return "Circle";
+        }
+    }
